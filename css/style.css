@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #dadde1;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.login-section{
+    max-width: 900px;
+    width:100%;
+    margin:0 auto;
+    padding:200px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-section .logo{
+    max-width: 400px;
+    width: 100%;
+}
+
+
+.login-section .logo img{
+    width: 300px;
+}
+
+.logo h2{
+    margin-left: 30px;
+}
+.login-section .form-input{
+    background-color:#fff;
+    border-radius: 8px;
+    padding: 24px;
+    max-width: 384px;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.login-section .form-input input{
+    color:grey;
+    border: 1px solid grey;
+    border-radius: 8px;
+    max-width: 350px;
+    padding: 16px 16px;
+    width: 100%;
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+
+
+.login-section .form-input .bg-blue{
+    background-color: #3A98B9;
+    color:#fff;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    cursor:pointer;
+}
+.form-input .center{
+    text-align: center;
+}
+
+.form-input .underline{
+    border-bottom: 1px solid #dadde1;
+    margin: 20px 0;
+}
+
+.btn-new-account button{
+    background-color:#54B435;
+    border:none;
+    padding:16px;
+    border-radius:8px;
+    color:#fff;
+    cursor: pointer;
+}
+
+p{
+    text-align: center;
+}
+
+.blue-link{
+    color:#3A98B9;
+}
+
+.black-link{
+    color:black;
+}
+
+@media only screen and (max-width: 765px) {
+  .login-section{
+    display: block;
+  }
+  .logo{
+    margin-bottom: 50px;
+  }
+}
